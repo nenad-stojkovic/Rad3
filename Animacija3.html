@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <title>Animacija</title>
+        <style>
+            body {
+                width: 1200px;
+            }
+            #pozadina {
+                position: absolute;
+                z-index: 10;
+                left: 300px;
+                margin:0 auto;
+                width: 600px;
+                height: 400px;
+                background-image: radial-gradient(circle, transparent 0px, transparent 144px, rgb(0,0,0,0.6) 144px,rgba(0,0,0,1) 174px);
+            }
+            #prsten {
+                z-index: 5;
+                width: 390px;
+                height: 390px;
+                margin: 0 auto;
+                position: absolute;
+                left: 405px;
+                top: 15px;
+                border: solid none;
+                border-radius:100%;
+                background-image: conic-gradient(rgba(251, 93, 173, 0.95), rgba(85, 251, 159, 0.95), rgba(185, 122, 255, 0.95),rgba(85, 251, 159, 0.95),rgba(251, 93, 173, 0.95)), 
+                linear-gradient(white,white);
+            }
+            #krug{
+                z-index: 7;
+                width: 244px;
+                height: 244px;
+                position: absolute;
+                margin: 0 auto;
+                left: 478px;
+                top:83px;
+                background-color: #050210;
+                border-radius: 100%;
+            }
+            #krug2{
+                z-index: 6;
+                width: 244px;
+                height: 244px;
+                position: absolute;
+                margin: 0 auto;
+                left: 478px;
+                top:83px;
+                background-color: black;
+                border-radius: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="pozadina"></div>
+        <div id="svetlo"></div>
+        <div id="prsten"></div>
+        <div id="krug"></div>
+        <div id="krug2"></div>
+
+    
+    
+</body></html>
